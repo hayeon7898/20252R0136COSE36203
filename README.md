@@ -34,11 +34,15 @@
 │   └── 📁 01_classification/
 │       └── best_lr_model.pkl         # Logistic Regression
 ├── 📁 notebooks/
-│   ├── random_forest.ipynb
-│   ├── xgboost.ipynb
-│   ├── ft_transformer.ipynb
-│   ├── logistic_regression.ipynb
-│   └── ensemble.ipynb
+│   ├── 📁 01_eda/
+│   │   └── eda.ipynb                 
+│   ├── 📁 02_classification/
+│   │   ├── random_forest.ipynb
+│   │   ├── xgboost.ipynb
+│   │   ├── ft_transformer.ipynb
+│   │   ├── logistic_regression.ipynb
+│   │   └── ensemble.ipynb
+│   └── 📁 03_regression/             # (예정)
 |── 📁 reports/
 │   ├── 01_Proposal report.pdf
 │   ├── 02_Progress report.pdf
@@ -46,7 +50,7 @@
 └── README.md
 ```
 
-> ⚠️ `best_rf_model.pkl`은 116MB로 GitHub 용량 제한(100MB)을 초과하여 제외됨
+> ⚠️ `best_rf_model.pkl`, `best_xgb_model.pkl`, `best_ft_model.pkl`은 GitHub 용량 제한(100MB)을 초과하여 제외됨
 
 ---
 
