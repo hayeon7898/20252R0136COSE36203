@@ -90,13 +90,13 @@
 
 ## 📊 성능 비교
 
-| Model               |  Accuracy  | F1 Score (macro) |
-| ------------------- | :--------: | :--------------: |
-| Logistic Regression |   0.6543   |      0.6489      |
-| Random Forest       |   0.7967   |      0.7850      |
-| XGBoost             |   0.8133   |      0.8062      |
-| FT-Transformer      |   0.7347   |      0.7179      |
-| **🏆 Ensemble**     | **0.8199** |    **0.8131**    |
+| Model | Accuracy | F1 Score (macro) |
+|-------|:--------:|:----------------:|
+| Logistic Regression | 0.6543 | 0.6489 |
+| Random Forest | 0.7967 | 0.7850 |
+| **🏆XGBoost** | **0.8296** | **0.8239** |
+| FT-Transformer | 0.7347 | 0.7179 |
+| Ensemble | 0.8199 | 0.8131 |
 
 ### 결과 분석
 
